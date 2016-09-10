@@ -23,4 +23,5 @@ urlpatterns = [
     url(r'^blog/$','blog.views.home',name='blog'),
     url(r'^archives/$','blog.views.archives',name='archives'),
     #url(r'^archives','')
+    url(r'^sites/$', 'blog.views.sites', name='sites'),
 ]
